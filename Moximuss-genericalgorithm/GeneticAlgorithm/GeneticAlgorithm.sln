@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneticAlgorithm.Engine", "GeneticAlgorithm.Engine\GeneticAlgorithm.Engine.csproj", "{A34B997E-C986-401F-9509-7DB94073DB6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneticAlgorithm.Presentation", "GeneticAlgorithm.Presentation\GeneticAlgorithm.Presentation.csproj", "{90845F50-4DCE-4465-8C21-C0F14692F45D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneticEngine.ProblemGenerator", "GeneticEngine.ProblemGenerator\GeneticEngine.ProblemGenerator.csproj", "{B327B9C9-1705-407E-AAA1-A8E3F66BF52A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneticAlgorithm.CirclesChromosome", "GeneticAlgorithm.CirclesChromosome\GeneticAlgorithm.CirclesChromosome.csproj", "{FA68D631-674B-4FA3-B44F-8A984DE35615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneticAlgorithm.DelaunatorSharp", "GeneticAlgorithm.DelaunatorSharp\GeneticAlgorithm.DelaunatorSharp.csproj", "{7DBC2FE3-0764-4B09-BA7E-150574DE7301}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A34B997E-C986-401F-9509-7DB94073DB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34B997E-C986-401F-9509-7DB94073DB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34B997E-C986-401F-9509-7DB94073DB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34B997E-C986-401F-9509-7DB94073DB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90845F50-4DCE-4465-8C21-C0F14692F45D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90845F50-4DCE-4465-8C21-C0F14692F45D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90845F50-4DCE-4465-8C21-C0F14692F45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90845F50-4DCE-4465-8C21-C0F14692F45D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B327B9C9-1705-407E-AAA1-A8E3F66BF52A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B327B9C9-1705-407E-AAA1-A8E3F66BF52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B327B9C9-1705-407E-AAA1-A8E3F66BF52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B327B9C9-1705-407E-AAA1-A8E3F66BF52A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA68D631-674B-4FA3-B44F-8A984DE35615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA68D631-674B-4FA3-B44F-8A984DE35615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA68D631-674B-4FA3-B44F-8A984DE35615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA68D631-674B-4FA3-B44F-8A984DE35615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBC2FE3-0764-4B09-BA7E-150574DE7301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBC2FE3-0764-4B09-BA7E-150574DE7301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBC2FE3-0764-4B09-BA7E-150574DE7301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBC2FE3-0764-4B09-BA7E-150574DE7301}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {852585B0-3439-4B99-B1B3-2C166401C40D}
+	EndGlobalSection
+EndGlobal

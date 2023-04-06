@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GeneticAlgorithm.CirclesChromosome.Circle">
+    <Position X="1.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneticAlgorithm.CirclesChromosome.XYZPoint">
+    <Position X="4.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>XYZPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneticAlgorithm.CirclesChromosome.CirclesChromosome">
+    <Position X="7.25" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="GeneticAlgorithm.CirclesChromosome.CirclesChromosome.CrossoverDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CirclesChromosome.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEgAAAgIAAhIgSAEFQAAAAACAAAAAAAAAIAAAEAAAE=</HashCode>
+      <FileName>CirclesChromosome.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

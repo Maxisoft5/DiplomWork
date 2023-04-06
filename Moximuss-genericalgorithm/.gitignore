@@ -1,0 +1,9 @@
+﻿/GeneticAlgorithm/.vs
+/GeneticAlgorithm/GeneticAlgorithm.ExperimentalData
+/GeneticAlgorithm/GeneticAlgorithm.Engine/EngineClassDiagram.cd
+/GeneticAlgorithm/GeneticAlgorithm.RectanglesChromosome/RectanglesChromosomeDiagram.cd
+/GeneticAlgorithm/GeneticAlgorithm.Presentation/PresentationDiagram.cd
+/GeneticAlgorithm/GeneticAlgorithm.Engine/GeneticAlgorithm.Engine.csproj.user
+/GeneticAlgorithm/**/bin
+/GeneticAlgorithm/**/obj
+/.vs

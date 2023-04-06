@@ -1,0 +1,18 @@
+﻿<Page x:Class="GeneticAlgorithm.Presentation.Pages.PlacedCircles"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GeneticAlgorithm.Presentation.Pages"
+      mc:Ignorable="d"
+      Title="PlacedRectangles" Height="499.6" Width="987.35">
+    <Grid Background="White" Margin="10,0,-545.8,-213.8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Canvas ClipToBounds="True" Background="AliceBlue" Name="placingCirclesCanvas" Margin="98,10,317.2,103" Width="1200" Height="500"/>
+        <Label x:Name="messageInfo" Content="" HorizontalAlignment="Left" Margin="36,632,0,0" VerticalAlignment="Top" Width="328" Height="26"/>
+        <Button x:Name="button" Content="Minimize" HorizontalAlignment="Left" Margin="1376,60,0,0" VerticalAlignment="Top" Width="71" Height="23"/>
+    </Grid>
+</Page>

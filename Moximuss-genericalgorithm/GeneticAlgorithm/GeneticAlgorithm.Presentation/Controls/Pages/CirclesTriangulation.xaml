@@ -1,0 +1,38 @@
+﻿<Page x:Class="GeneticAlgorithm.Presentation.Controls.Pages.CirclesTriangulation"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GeneticAlgorithm.Presentation.Controls.Pages"
+      mc:Ignorable="d"
+      Title="CirclesTriangulation"
+      Background="White" Height="554.295" Width="1037.6">
+    <Grid Margin="0,-5,9.6,194.4">
+        <Canvas x:Name="placingCanvas" Margin="10,10,222.6,90.6">
+            <DockPanel VerticalAlignment="Top"> 
+                <Label x:Name="ApplicationTime" HorizontalAlignment="Left" Content="00:00:00"/>
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Right">
+                    <StackPanel  Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Label Content="mouse position:"/>
+                        <Label x:Name="MousePosition" Content="0,0"/>
+                    </StackPanel>
+                </StackPanel>
+            </DockPanel>
+        </Canvas>
+        <Button Content="Clear" Click="OnClearClick" Canvas.Top="290" Height="28" Canvas.Left="70" Margin="475,481,406.6,-144.4"/>
+        <Button Content="Generate Samples" Click="OnGenerateSamplesClick" Canvas.Top="290" Height="28" Canvas.Left="70" Margin="148,430,726.6,-93.4"/>
+        <Button Width="118" Content="Draw voronoi" Click="OnDrawVoronoiClick" Canvas.Left="462" Canvas.Top="290" Height="28" Margin="475,430,406.6,-93.4"/>
+        <Button Width="101" Content="Draw delaunay" Click="OnDrawDelaunayClick" Canvas.Left="331" Canvas.Top="290" Height="28" Margin="767,430,131.6,-93.4"/>
+        <Button Width="81" Content="Draw Hull"  Click="OnDrawHullClick" Canvas.Left="224" Canvas.Top="290" Height="28" Margin="637,430,281.6,-93.4"/>
+        <Button Content="Draw Diagram" Click="OnDrawDiagramClick" Canvas.Left="603" Canvas.Top="290" Height="28" RenderTransformOrigin="0.5,0.5" Margin="331,430,564.6,-93.4">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.076"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+    </Grid>
+</Page>
